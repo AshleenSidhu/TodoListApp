@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const TodoList = () => {
+const ToDoList = () => {
   return (
     <View>
       <ScrollView>
@@ -25,4 +25,18 @@ const TodoList = () => {
   )
 }
 
-export default TodoList
+export default TooList
+
+const styles = StyleSheet.create({
+  task: {
+    padding: 10,
+    borderBottomWidth: 1,
+    borderColor: '#ccc',
+  },
+  completed: {
+    backgroundColor: '#e0e0e0',
+  },
+  taskText: {
+    fontSize: 16,
+  },
+});

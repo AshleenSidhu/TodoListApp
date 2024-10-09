@@ -1,9 +1,3 @@
-/**
- * My To Do List App
- *
- * @format
- */
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -15,9 +9,14 @@ import {
   TextInput,
   Button
 } from 'react-native';
+/**
+ * My To Do List App
+ *
+ * @format
+ */
 
 
-function App() {
+const App = () => {
   return (
     <SafeAreaView>
       <ScrollView>
@@ -78,4 +77,5 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
 
