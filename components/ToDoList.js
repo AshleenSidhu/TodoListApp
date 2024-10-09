@@ -22,10 +22,10 @@ const ToDoList = () => {
         </Pressable>
       </ScrollView>
     </View>
-  )
-}
+  );
+};
 
-export default TooList
+export default ToDoList;
 
 const styles = StyleSheet.create({
   task: {
